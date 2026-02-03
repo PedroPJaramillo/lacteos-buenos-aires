@@ -1,0 +1,3355 @@
+{
+  "products": [
+    {
+      "code": "SG0132",
+      "name": "Aceite Cheff x 20 L",
+      "unit": "Bidon",
+      "price": 203847.0,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "SG0346",
+      "name": "Aceite Frytol x 20 L",
+      "unit": "Bidon",
+      "price": 247251.06,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "DG6043",
+      "name": "Aceite Girasol Oleocali x 3000 ML",
+      "unit": "Pet",
+      "price": 36116.5,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "DG6083",
+      "name": "Aceite Girasol Oleocali x 900 ML",
+      "unit": "Pet",
+      "price": 15648.5,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "DG2290",
+      "name": "Aceite Oleocali x 250 ML",
+      "unit": "Pet",
+      "price": 3334.38,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "DG2291",
+      "name": "Aceite Oleocali x 3000 MIL",
+      "unit": "Pet",
+      "price": 32420.36,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "DG2293",
+      "name": "Aceite Oleocali x 500 ML",
+      "unit": "Pet",
+      "price": 5092.01,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "DG2295",
+      "name": "Aceite Oleocali x 900 ML",
+      "unit": "Pet",
+      "price": 9935.31,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "DG2285",
+      "name": "Aceite Premier x 500 MIL",
+      "unit": "Pet",
+      "price": 10005.52,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "DG6433",
+      "name": "Aceite Premier x 900 ML",
+      "unit": "Pet",
+      "price": 15113.0,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "EQ6558",
+      "name": "Aceite liva extra virgen x 250 ml",
+      "unit": "Pet",
+      "price": 17695.3,
+      "brand": "Aceites",
+      "category": "Bebidas"
+    },
+    {
+      "code": "NM8925",
+      "name": "Cernido de Piña Pompeya x 4000G",
+      "unit": "UND",
+      "price": 23396.59,
+      "brand": "Bary",
+      "category": "Enlatados y Conservas"
+    },
+    {
+      "code": "NM4682",
+      "name": "Mayonesa Bolsa x 5000 G",
+      "unit": "UND",
+      "price": 65286.97,
+      "brand": "Bary",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "NM0523",
+      "name": "Mayonesa galon x 3800 G",
+      "unit": "UND",
+      "price": 51227.12,
+      "brand": "Bary",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "NM0028",
+      "name": "Miel Maple Frasco x 480 G",
+      "unit": "UND",
+      "price": 9111.83,
+      "brand": "Bary",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "NM4699",
+      "name": "Mostaza Bolsa x 5000 G",
+      "unit": "UND",
+      "price": 46570.65,
+      "brand": "Bary",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "NM9007",
+      "name": "Pasta de Tomate Bolsa x 5000 G",
+      "unit": "UND",
+      "price": 78788.71,
+      "brand": "Bary",
+      "category": "Bebidas"
+    },
+    {
+      "code": "NM5900",
+      "name": "Salsa BBQ Bolsa x 5000 G",
+      "unit": "UND",
+      "price": 56478.59,
+      "brand": "Bary",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "NM8406",
+      "name": "Salsa Hardys Sachet x 100 x 8 G",
+      "unit": "UND",
+      "price": 21352.17,
+      "brand": "Bary",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "NM1483",
+      "name": "Salsa Soya x 3000 ML",
+      "unit": "UND",
+      "price": 22066.17,
+      "brand": "Bary",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "NM4675",
+      "name": "Salsa de Tomate Bolsa x 5000 G",
+      "unit": "UND",
+      "price": 72466.24,
+      "brand": "Bary",
+      "category": "Bebidas"
+    },
+    {
+      "code": "NM0141",
+      "name": "Vinagre Blanco x 3 L",
+      "unit": "UND",
+      "price": 12022.57,
+      "brand": "Bary",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "L62208",
+      "name": "ACEITE GOURMET * 1000 cc",
+      "unit": "FRASCO",
+      "price": 7572.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L62604",
+      "name": "ACEITE GOURMET * 3000 cc",
+      "unit": "GARRAFA",
+      "price": 22038.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L62154",
+      "name": "ACEITE GOURMET * 500 cc",
+      "unit": "FRASCO",
+      "price": 4127.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L62659",
+      "name": "ACEITE GOURMET * 5000 cc",
+      "unit": "GARRAFA",
+      "price": 36351.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L00709",
+      "name": "ACEITE GOURMET CANOLA *1000 cc",
+      "unit": "FRASCO",
+      "price": 9502.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L42200",
+      "name": "ACEITE OLIOSOYA * 1000 cc",
+      "unit": "FRASCO",
+      "price": 5364.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L42101",
+      "name": "ACEITE OLIOSOYA * 250 cc",
+      "unit": "FRASCO",
+      "price": 1663.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L42507",
+      "name": "ACEITE OLIOSOYA * 3000 cc",
+      "unit": "GARRAFA",
+      "price": 15610.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L42156",
+      "name": "ACEITE OLIOSOYA * 500 cc",
+      "unit": "FRASCO",
+      "price": 3003.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L42705",
+      "name": "ACEITE OLIOSOYA * 5000 cc",
+      "unit": "GARRAFA",
+      "price": 25750.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L06890",
+      "name": "ATUN VIKINGOS LOMO ACEITE *170 grs",
+      "unit": "LATA",
+      "price": 3074.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L06906",
+      "name": "ATUN VIKINGOS LOMO AGUA *170grs",
+      "unit": "LATA",
+      "price": 2958.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L60758",
+      "name": "C. AROMA GRANULADO *170gr.",
+      "unit": "JARRA",
+      "price": 8041.0,
+      "brand": "COLANTA",
+      "category": "Otros"
+    },
+    {
+      "code": "L60376",
+      "name": "CAFE AROMA GRANULADO *50grs.",
+      "unit": "FRASC",
+      "price": 2705.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L60543",
+      "name": "CAFE AROMA GRANULADO *85grs.",
+      "unit": "FRASC",
+      "price": 4499.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L52516",
+      "name": "CAFE M.LUKAFE *2500g. CLASICO",
+      "unit": "BOLSA",
+      "price": 33187.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L60345",
+      "name": "CAFÉ AROMA SOLUBLE *50grs",
+      "unit": "FRASC",
+      "price": 2437.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L60352",
+      "name": "CAFÉ AROMA SOLUBLE *85grs",
+      "unit": "FRASC",
+      "price": 4048.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L65018",
+      "name": "CHOCOEXPRES *125 grs",
+      "unit": "SOBRE",
+      "price": 1877.0,
+      "brand": "COLANTA",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "L65048",
+      "name": "CHOCOEXPRESS *200 grs",
+      "unit": "BOLSA",
+      "price": 2923.0,
+      "brand": "COLANTA",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "L85028",
+      "name": "CLIGHT x 10 grs.SOBRE",
+      "unit": "SOBRE",
+      "price": 657.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L68254",
+      "name": "COCOA LUKER 12% *25 Kilos",
+      "unit": "BULTO",
+      "price": 176000.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L90381",
+      "name": "CREMA LAVALOZA FASSI *250",
+      "unit": "TARRO",
+      "price": 2761.0,
+      "brand": "COLANTA",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L90404",
+      "name": "CREMA LAVALOZA FASSI *450",
+      "unit": "TARRO",
+      "price": 1404.0,
+      "brand": "COLANTA",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L00236",
+      "name": "DET.POLVO GRANDIOSO * 2800 grs",
+      "unit": "BOLSA",
+      "price": 16820.0,
+      "brand": "COLANTA",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L00021",
+      "name": "DET.POLVO GRANDIOSO * 400 grs",
+      "unit": "BOLSA",
+      "price": 1447.0,
+      "brand": "COLANTA",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L00038",
+      "name": "DET.POLVO GRANDIOSO * 900 grs",
+      "unit": "BOLSA",
+      "price": 3213.0,
+      "brand": "COLANTA",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L02851",
+      "name": "GALLETA C.SOCIAL FRESA D*9Un.",
+      "unit": "PAQ.",
+      "price": 2379.0,
+      "brand": "COLANTA",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L01694",
+      "name": "GALLETA C.SOCIAL INT. D*9",
+      "unit": "DPL",
+      "price": 2379.0,
+      "brand": "COLANTA",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L03446",
+      "name": "GALLETA C.SOCIAL JAMON D*9",
+      "unit": "UNID.",
+      "price": 2379.0,
+      "brand": "COLANTA",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L05106",
+      "name": "GALLETA CLUB SOCIAL D*9 x 279gr",
+      "unit": "DISP.",
+      "price": 2379.0,
+      "brand": "COLANTA",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L06390",
+      "name": "GALLETA HONY D*9",
+      "unit": "DISP.",
+      "price": 3368.0,
+      "brand": "COLANTA",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L51110",
+      "name": "GALLETA OREO D*12 432g.",
+      "unit": "DISP.",
+      "price": 4026.0,
+      "brand": "COLANTA",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L72248",
+      "name": "GALLETAS RITZ QUESO D*6Un.",
+      "unit": "DISP",
+      "price": 3475.0,
+      "brand": "COLANTA",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L91944",
+      "name": "GEL SIN SABOR *7.5 grs.",
+      "unit": "DISP.",
+      "price": 389.0,
+      "brand": "COLANTA",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "L55302",
+      "name": "GELATINA SAROMA *45grs.",
+      "unit": "UNID.",
+      "price": 653.0,
+      "brand": "COLANTA",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "L65064",
+      "name": "H.RICAMASA AMARILLA*1000grs.",
+      "unit": "BOLSA",
+      "price": 1914.0,
+      "brand": "COLANTA",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "L61066",
+      "name": "H.RICAMASA BLANCA*1000grs.",
+      "unit": "BOLSA",
+      "price": 1914.0,
+      "brand": "COLANTA",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "L32379",
+      "name": "LIMPIADOR LAVANDA *750ml",
+      "unit": "FRASCO",
+      "price": 2341.0,
+      "brand": "COLANTA",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L02373",
+      "name": "LIMPIADOR POPOURRI *750ml",
+      "unit": "FRASCO",
+      "price": 2341.0,
+      "brand": "COLANTA",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L12021",
+      "name": "LUKER AMARGO *250 grs",
+      "unit": "BARRA",
+      "price": 3721.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L12014",
+      "name": "LUKER AMARGO / Clavos y canela*125 grs",
+      "unit": "BARRA",
+      "price": 1869.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L12175",
+      "name": "LUKER AMARGO D*64 1000 grs",
+      "unit": "TARRO",
+      "price": 15997.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L12151",
+      "name": "LUKER AMARGO D32 *500 grs",
+      "unit": "TARRO",
+      "price": 7998.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L14018",
+      "name": "LUKER clavos y canela D32 *500 grs",
+      "unit": "TARRO",
+      "price": 7998.0,
+      "brand": "COLANTA",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L81227",
+      "name": "MARG. BUENA D*20Un. *125 grs",
+      "unit": "BARRA",
+      "price": 18489.0,
+      "brand": "COLANTA",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L81203",
+      "name": "MARG. BUENA D*4Un.*125 grs",
+      "unit": "BARRA",
+      "price": 3698.0,
+      "brand": "COLANTA",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L00372",
+      "name": "MARG.CAMPI LIGHT *250 grs",
+      "unit": "UND.",
+      "price": 2710.0,
+      "brand": "COLANTA",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L81029",
+      "name": "MARGARINA BUENA *250 grs.",
+      "unit": "BARRA",
+      "price": 1836.0,
+      "brand": "COLANTA",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L81036",
+      "name": "MARGARINA BUENA *500 grs.",
+      "unit": "BARRA",
+      "price": 3667.0,
+      "brand": "COLANTA",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L01192",
+      "name": "MARGARINA CAMPI *1000 grs",
+      "unit": "UNID.",
+      "price": 8449.0,
+      "brand": "COLANTA",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L01000",
+      "name": "MARGARINA CAMPI *250 grs.",
+      "unit": "TARRO",
+      "price": 2507.0,
+      "brand": "COLANTA",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L01154",
+      "name": "MARGARINA CAMPI *500 grs.",
+      "unit": "TARRO",
+      "price": 4763.0,
+      "brand": "COLANTA",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L85370",
+      "name": "TANG INST. MANDARINA * 810gr.",
+      "unit": "UNID.",
+      "price": 6365.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L85364",
+      "name": "TANG INST. MORA * 810gr.",
+      "unit": "BOLSA",
+      "price": 6365.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L85363",
+      "name": "TANG INST. NARANJA * 810grs.",
+      "unit": "BOLSA",
+      "price": 6365.0,
+      "brand": "COLANTA",
+      "category": "Bebidas"
+    },
+    {
+      "code": "CT4872",
+      "name": "Helado Veteado de Caramelo x 0.5 L",
+      "unit": "",
+      "price": 12869.85,
+      "brand": "Colanta Helados",
+      "category": "Bebidas"
+    },
+    {
+      "code": "CT4865",
+      "name": "Helado Veteado de Caramelo x 1 L",
+      "unit": "",
+      "price": 21703.22,
+      "brand": "Colanta Helados",
+      "category": "Bebidas"
+    },
+    {
+      "code": "CT4851",
+      "name": "Helado Veteado de Caremelo x 10 L",
+      "unit": "",
+      "price": 62234.62,
+      "brand": "Colanta Helados",
+      "category": "Bebidas"
+    },
+    {
+      "code": "CT4858",
+      "name": "Helado Veteado de Caremelo x 5 L",
+      "unit": "",
+      "price": 39788.84,
+      "brand": "Colanta Helados",
+      "category": "Bebidas"
+    },
+    {
+      "code": "CT4863",
+      "name": "Helado Veteado de Mora x 1 L",
+      "unit": "",
+      "price": 21703.22,
+      "brand": "Colanta Helados",
+      "category": "Bebidas"
+    },
+    {
+      "code": "CT4252",
+      "name": "Helado de Arequipe coco  x 10 L",
+      "unit": "",
+      "price": 82971.56,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4255",
+      "name": "Helado de Arequipe con Coco x 0.5L",
+      "unit": "",
+      "price": 14277.62,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4254",
+      "name": "Helado de Arequipe con Coco x 1 L",
+      "unit": "",
+      "price": 23955.89,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4253",
+      "name": "Helado de Arequipe con Coco x 5 L",
+      "unit": "",
+      "price": 45491.32,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4871",
+      "name": "Helado de Brownie x 0.5 L",
+      "unit": "",
+      "price": 12869.85,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4864",
+      "name": "Helado de Brownie x 1 L",
+      "unit": "",
+      "price": 21703.22,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4850",
+      "name": "Helado de Brownie x 10 L",
+      "unit": "",
+      "price": 76938.26,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4857",
+      "name": "Helado de Brownie x 5 L",
+      "unit": "",
+      "price": 39788.84,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4810",
+      "name": "Helado de Chicle x 1 L",
+      "unit": "",
+      "price": 21704.41,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4869",
+      "name": "Helado de Chocolate x 0.5 L",
+      "unit": "",
+      "price": 12491.43,
+      "brand": "Colanta Helados",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CT4862",
+      "name": "Helado de Chocolate x 1 L",
+      "unit": "",
+      "price": 21703.22,
+      "brand": "Colanta Helados",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CT4848",
+      "name": "Helado de Chocolate x 10 L",
+      "unit": "",
+      "price": 76938.26,
+      "brand": "Colanta Helados",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CT4841",
+      "name": "Helado de Chocolate x 18 L",
+      "unit": "",
+      "price": 118350.26,
+      "brand": "Colanta Helados",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CT4855",
+      "name": "Helado de Chocolate x 5 L",
+      "unit": "",
+      "price": 39788.84,
+      "brand": "Colanta Helados",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CT4868",
+      "name": "Helado de Fresa x 0.5 L",
+      "unit": "",
+      "price": 12491.43,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4861",
+      "name": "Helado de Fresa x 1 L",
+      "unit": "",
+      "price": 21703.22,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4847",
+      "name": "Helado de Fresa x 10 L",
+      "unit": "",
+      "price": 76938.26,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4840",
+      "name": "Helado de Fresa x 18 L",
+      "unit": "",
+      "price": 121913.12,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4854",
+      "name": "Helado de Fresa x 5 L",
+      "unit": "",
+      "price": 39788.84,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4263",
+      "name": "Helado de Mandarina x 0.5 L",
+      "unit": "",
+      "price": 12869.85,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4262",
+      "name": "Helado de Mandarina x 1 L",
+      "unit": "",
+      "price": 21064.19,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4261",
+      "name": "Helado de Mandarina x 5 L",
+      "unit": "",
+      "price": 38623.83,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4261",
+      "name": "Helado de Mandarina x 5 L",
+      "unit": "",
+      "price": 35671.44,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4867",
+      "name": "Helado de Ron con pasas x 0.5 L",
+      "unit": "",
+      "price": 12869.85,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4860",
+      "name": "Helado de Ron con pasas x 1 L",
+      "unit": "",
+      "price": 21064.19,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4846",
+      "name": "Helado de Ron con pasas x 10 L",
+      "unit": "",
+      "price": 76938.26,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4839",
+      "name": "Helado de Ron con pasas x 18 L",
+      "unit": "",
+      "price": 121913.12,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4853",
+      "name": "Helado de Ron con pasas x 5 L",
+      "unit": "",
+      "price": 39788.84,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4822",
+      "name": "Helado de Tres Leches x 0,5 L",
+      "unit": "",
+      "price": 14714.35,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4807",
+      "name": "Helado de Tres Leches x 0,5 L",
+      "unit": "",
+      "price": 42060.55,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4803",
+      "name": "Helado de Tres Leches x 10 L",
+      "unit": "",
+      "price": 82972.75,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4820",
+      "name": "Helado de Vainilla Chips x 0.5 L",
+      "unit": "",
+      "price": 12491.43,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4809",
+      "name": "Helado de Vainilla Chips x 1 L",
+      "unit": "",
+      "price": 21064.19,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4801",
+      "name": "Helado de Vainilla Chips x 10 L",
+      "unit": "",
+      "price": 74682.02,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4805",
+      "name": "Helado de Vainilla Chips x 5 L",
+      "unit": "",
+      "price": 39788.84,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4866",
+      "name": "Helado de Vainilla x 0.5 L",
+      "unit": "",
+      "price": 12869.85,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4859",
+      "name": "Helado de Vainilla x 1 L",
+      "unit": "",
+      "price": 21064.19,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4845",
+      "name": "Helado de Vainilla x 10 L",
+      "unit": "",
+      "price": 76938.26,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4838",
+      "name": "Helado de Vainilla x 18 L",
+      "unit": "",
+      "price": 121913.12,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4852",
+      "name": "Helado de Vainilla x 5 L",
+      "unit": "",
+      "price": 39788.84,
+      "brand": "Colanta Helados",
+      "category": "Congelados"
+    },
+    {
+      "code": "CT4849",
+      "name": "Helado de Veteado de Mora x 10 L",
+      "unit": "",
+      "price": 76938.26,
+      "brand": "Colanta Helados",
+      "category": "Bebidas"
+    },
+    {
+      "code": "CT4842",
+      "name": "Helado de Veteado de Mora x 18 L",
+      "unit": "",
+      "price": 82378.94,
+      "brand": "Colanta Helados",
+      "category": "Bebidas"
+    },
+    {
+      "code": "CT4856",
+      "name": "Helado de Veteado de Mora x 5 L",
+      "unit": "",
+      "price": 32187.12,
+      "brand": "Colanta Helados",
+      "category": "Bebidas"
+    },
+    {
+      "code": "CT4823",
+      "name": "Helado de Yogur Frutos Amarilos x 0,5 L",
+      "unit": "",
+      "price": 14714.35,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4819",
+      "name": "Helado de Yogur Frutos Amarilos x 1 L",
+      "unit": "",
+      "price": 23955.89,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4804",
+      "name": "Helado de Yogur Frutos Amarilos x 10 L",
+      "unit": "",
+      "price": 82976.32,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4808",
+      "name": "Helado de Yogur Frutos Amarilos x 5 L",
+      "unit": "",
+      "price": 45491.32,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4265",
+      "name": "Helado de Yogur Frutos Rojos x 0,5 L",
+      "unit": "",
+      "price": 14277.62,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4264",
+      "name": "Helado de Yogur Frutos Rojos x 1 L",
+      "unit": "",
+      "price": 23955.89,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4798",
+      "name": "Helado de Yogur Frutos Rojos x 5 L",
+      "unit": "",
+      "price": 42561.54,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "CT4898",
+      "name": "Helado de Yogur Frutos Rojos x 5 L",
+      "unit": "",
+      "price": 45491.32,
+      "brand": "Colanta Helados",
+      "category": "Lácteos"
+    },
+    {
+      "code": "AJ1242",
+      "name": "Darnel Papel Aluminio x 13 mt",
+      "unit": "",
+      "price": 7556.5,
+      "brand": "Darnel Wraps",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "AJ1223",
+      "name": "Darnel Papel Aluminio x 7 mt",
+      "unit": "",
+      "price": 4480.35,
+      "brand": "Darnel Wraps",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "AJ1266",
+      "name": "Darnel Wrap (Papel Chicle) x 20 mt",
+      "unit": "",
+      "price": 3115.42,
+      "brand": "Darnel Wraps",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "AJ1000",
+      "name": "Darnel Wrap (Papel Chicle) x 300 mt",
+      "unit": "",
+      "price": 33599.65,
+      "brand": "Darnel Wraps",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "AJ1210",
+      "name": "Tami Wrap (Papel Chicle) x 100 mt",
+      "unit": "",
+      "price": 9222.5,
+      "brand": "Darnel Wraps",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "AJ1400",
+      "name": "Tami Wrap (Papel Chicle) x 1400 mt",
+      "unit": "",
+      "price": 94962.0,
+      "brand": "Darnel Wraps",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "DF0208",
+      "name": "AREQUIPE ESPECIAL RELLENO X 12KG",
+      "unit": "CAJA",
+      "price": 132163.0,
+      "brand": "Dulces Flowers",
+      "category": "Lácteos"
+    },
+    {
+      "code": "DF0203",
+      "name": "BALDE DULCE DE LECHE CORRAL DECO X 5KG",
+      "unit": "BALDE",
+      "price": 48573.0,
+      "brand": "Dulces Flowers",
+      "category": "Lácteos"
+    },
+    {
+      "code": "DF0104",
+      "name": "CAJA DULCE LECHE DELICIAS DEL CAMPO X 12KG",
+      "unit": "CAJA",
+      "price": 90121.0,
+      "brand": "Dulces Flowers",
+      "category": "Lácteos"
+    },
+    {
+      "code": "DF0201",
+      "name": "CAJA GUAYABA TIPO A X 12kg",
+      "unit": "CAJA",
+      "price": 108073.0,
+      "brand": "Dulces Flowers",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "DF0101",
+      "name": "CERNIDO GRANEL DE GUAYABA X 12kg",
+      "unit": "CAJA",
+      "price": 58975.0,
+      "brand": "Dulces Flowers",
+      "category": "Enlatados y Conservas"
+    },
+    {
+      "code": "DF0204",
+      "name": "COCO ARTESANAL X 1KG",
+      "unit": "BOLSA",
+      "price": 32208.0,
+      "brand": "Dulces Flowers",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "DF0202",
+      "name": "GARRAFA DULCE DE LECHE RELLENO X 5KG",
+      "unit": "GARRAFA",
+      "price": 59034.0,
+      "brand": "Dulces Flowers",
+      "category": "Lácteos"
+    },
+    {
+      "code": "DF0103",
+      "name": "MANGA GUAYABA X 1KG",
+      "unit": "BOLSA",
+      "price": 6757.0,
+      "brand": "Dulces Flowers",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "EQ3523",
+      "name": "ACEITE DE OLIVA EXTRA R-SALGADO EXT V PET X 1 L",
+      "unit": "UND",
+      "price": 79407.51,
+      "brand": "E4",
+      "category": "Bebidas"
+    },
+    {
+      "code": "EQ6564",
+      "name": "ACEITE DE OLIVA EXTRA VIRGEN 5mL",
+      "unit": "UND",
+      "price": 292308.03,
+      "brand": "E4",
+      "category": "Bebidas"
+    },
+    {
+      "code": "EQ4050",
+      "name": "ACEITUNA NEGRA DESHUESADA KARI 3100GR",
+      "unit": "UND",
+      "price": 51100.98,
+      "brand": "E4",
+      "category": "Enlatados y Conservas"
+    },
+    {
+      "code": "EQ4030",
+      "name": "ACEITUNA VERDE DESHUESADA KARI 3100GR",
+      "unit": "UND",
+      "price": 64248.1,
+      "brand": "E4",
+      "category": "Enlatados y Conservas"
+    },
+    {
+      "code": "EQ3286",
+      "name": "ACEITUNAS NEGRA RODAJAS KARI 3100 GR",
+      "unit": "UND",
+      "price": 53201.33,
+      "brand": "E4",
+      "category": "Enlatados y Conservas"
+    },
+    {
+      "code": "EQ0019",
+      "name": "BEBIDA ALMENDRA BARISTA X 1L",
+      "unit": "UND",
+      "price": 13429.15,
+      "brand": "E4",
+      "category": "Bebidas"
+    },
+    {
+      "code": "EQ3302",
+      "name": "BEBIDA ALMENDRA SIN AZUCAR X 1L",
+      "unit": "UND",
+      "price": 10639.79,
+      "brand": "E4",
+      "category": "Bebidas"
+    },
+    {
+      "code": "EQ0199",
+      "name": "BEBIDA AVENA BARISTA X 1L",
+      "unit": "UND",
+      "price": 11759.58,
+      "brand": "E4",
+      "category": "Bebidas"
+    },
+    {
+      "code": "EQ4096",
+      "name": "CEREZA MARASCHINO KARI X 1000G.",
+      "unit": "UND",
+      "price": 28956.27,
+      "brand": "E4",
+      "category": "Enlatados y Conservas"
+    },
+    {
+      "code": "EQ3199",
+      "name": "COCONUT MILK KARI 400ML",
+      "unit": "UND",
+      "price": 9044.0,
+      "brand": "E4",
+      "category": "Otros"
+    },
+    {
+      "code": "EQ3200",
+      "name": "CREMA DE COCO KARI 400ML",
+      "unit": "UND",
+      "price": 11165.77,
+      "brand": "E4",
+      "category": "Otros"
+    },
+    {
+      "code": "EQ4132",
+      "name": "DURAZNO EN MITADES  x 3000 GR",
+      "unit": "UND",
+      "price": 37787.26,
+      "brand": "E4",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "EQ9143",
+      "name": "DURAZNO EN MITADES  x 410 GR",
+      "unit": "UND",
+      "price": 5959.52,
+      "brand": "E4",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "EQ3863",
+      "name": "DURAZNO EN MITADES x 820 GR",
+      "unit": "UND",
+      "price": 11127.69,
+      "brand": "E4",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "EQ7033",
+      "name": "LICHIS ENTEROS EN JARABE KARI LATA X 565",
+      "unit": "UND",
+      "price": 12095.16,
+      "brand": "E4",
+      "category": "Otros"
+    },
+    {
+      "code": "EQ8617",
+      "name": "MAYONESA CHEFT KARI X3,785G",
+      "unit": "UND",
+      "price": 75772.06,
+      "brand": "E4",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "EQ2992",
+      "name": "MAYONESA KARI EXTRA HEAVY X 3,785G",
+      "unit": "UND",
+      "price": 81592.35,
+      "brand": "E4",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "EQ2274",
+      "name": "PAPEL ALUMINIO KARI ROLLO X 300 Mts",
+      "unit": "UND",
+      "price": 82270.65,
+      "brand": "E4",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "EQ3626",
+      "name": "VINAGRE BALSAMICO MODENA COLAVITA 500ML",
+      "unit": "UND",
+      "price": 19085.8864,
+      "brand": "E4",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "EQ3625",
+      "name": "VINAGRE BALSAMICO MODENA COLAVITA 5L",
+      "unit": "UND",
+      "price": 87611.37,
+      "brand": "E4",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "EP0187",
+      "name": "Pitillo Blanco Eco 8x19,7 Paq x 200Unds",
+      "unit": "PQTE",
+      "price": 14934.5,
+      "brand": "EcoPapel",
+      "category": "Otros"
+    },
+    {
+      "code": "EP0777",
+      "name": "Pitillo Blanco Eco 8x25cm Paq x 200Unds",
+      "unit": "PQTE",
+      "price": 16505.0,
+      "brand": "EcoPapel",
+      "category": "Otros"
+    },
+    {
+      "code": "EP0392",
+      "name": "Pitillo Espiral Amarillo Eco8x19,7Paqx200Unds",
+      "unit": "PQTE",
+      "price": 16838.5,
+      "brand": "EcoPapel",
+      "category": "Otros"
+    },
+    {
+      "code": "EP0394",
+      "name": "Pitillo Espiral Azul Eco8x19,7Paqx200Unds",
+      "unit": "PQTE",
+      "price": 16838.5,
+      "brand": "EcoPapel",
+      "category": "Otros"
+    },
+    {
+      "code": "EP0262",
+      "name": "Pitillo Espiral Rojo Eco8x19,7Paqx200Unds",
+      "unit": "PQTE",
+      "price": 16838.5,
+      "brand": "EcoPapel",
+      "category": "Otros"
+    },
+    {
+      "code": "EP0393",
+      "name": "Pitillo Espiral Verd Eco8x19,7Paqx200Unds",
+      "unit": "PQTE",
+      "price": 16839.0,
+      "brand": "EcoPapel",
+      "category": "Otros"
+    },
+    {
+      "code": "EP0731",
+      "name": "Pitillo Negro Eco 8x25cm Paq x 200Unds",
+      "unit": "PQTE",
+      "price": 24434.27,
+      "brand": "EcoPapel",
+      "category": "Otros"
+    },
+    {
+      "code": "391X",
+      "name": "Ancheta Ilusión",
+      "unit": "UND",
+      "price": 81900.0,
+      "brand": "Especiales de temporada",
+      "category": "Otros"
+    },
+    {
+      "code": "1295",
+      "name": "Ancheta Sabores Navideños",
+      "unit": "UND",
+      "price": 37380.0,
+      "brand": "Especiales de temporada",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "391Y",
+      "name": "Ancheta Sensación",
+      "unit": "UND",
+      "price": 108580.0,
+      "brand": "Especiales de temporada",
+      "category": "Otros"
+    },
+    {
+      "code": "391W",
+      "name": "Ancheta Tradición",
+      "unit": "UND",
+      "price": 32930.0,
+      "brand": "Especiales de temporada",
+      "category": "Otros"
+    },
+    {
+      "code": "0922",
+      "name": "Arequipe Tarrina x 220 G",
+      "unit": "UND",
+      "price": 4902.0,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "4081",
+      "name": "Arequipe Tarrina x 450 G",
+      "unit": "UND",
+      "price": 8815.0,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "4057",
+      "name": "Arequipe de Búfala x 270 G",
+      "unit": "UND",
+      "price": 6342.17312977099,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "9039",
+      "name": "Caja Obsequio - Ancheta Grande",
+      "unit": "UND",
+      "price": 3389.0,
+      "brand": "Especiales de temporada",
+      "category": "Otros"
+    },
+    {
+      "code": "9044",
+      "name": "Caja Obsequio - Ancheta Pequeña",
+      "unit": "UND",
+      "price": 2770.0,
+      "brand": "Especiales de temporada",
+      "category": "Otros"
+    },
+    {
+      "code": "9072",
+      "name": "Caja Obsequio – Ancheta",
+      "unit": "UND",
+      "price": 3272.0,
+      "brand": "Especiales de temporada",
+      "category": "Otros"
+    },
+    {
+      "code": "6315",
+      "name": "Cañón Tropical Tajado x 500 G - 10 tajadas",
+      "unit": "UND",
+      "price": 23417.5,
+      "brand": "Especiales de temporada",
+      "category": "Otros"
+    },
+    {
+      "code": "6302",
+      "name": "Cena Navideña x 1.000 G (pollo relleno tajado de 500 g. y lomo de cerdo tajado de 500 g.) 20 tajadas. incluye 1 salsa de ciruelas de 100 g. y una salsa cantonesa de 100 g.",
+      "unit": "UND",
+      "price": 39482.5,
+      "brand": "Especiales de temporada",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "7245",
+      "name": "Chorizo con TerneraTipo Cóctel x 300 G (edición de navidad)",
+      "unit": "UND",
+      "price": 10157.5,
+      "brand": "Especiales de temporada",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "6442",
+      "name": "Chuzo de Cerdo x 1  K",
+      "unit": "UND",
+      "price": 28050.0,
+      "brand": "Especiales de temporada",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "1294",
+      "name": "Combo Estrella de Navidad",
+      "unit": "UND",
+      "price": 20700.0,
+      "brand": "Especiales de temporada",
+      "category": "Otros"
+    },
+    {
+      "code": "1293",
+      "name": "Combo Magia",
+      "unit": "UND",
+      "price": 23220.0,
+      "brand": "Especiales de temporada",
+      "category": "Otros"
+    },
+    {
+      "code": "1296",
+      "name": "Combo Tentación",
+      "unit": "UND",
+      "price": 23400.0,
+      "brand": "Especiales de temporada",
+      "category": "Otros"
+    },
+    {
+      "code": "6359",
+      "name": "Especial de Temporada x 500 G\n(pernil de cerdo x 250 g. + cañón tropical x 250 g.) 10 tajadas. incluye 1 salsa cantoneza de 100 g. y 1 salsa teriyaki de 100 g.",
+      "unit": "UND",
+      "price": 23077.5,
+      "brand": "Especiales de temporada",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "7555",
+      "name": "Jamón Ahumado Buffet Tajado x 500 G - 10 tajadas",
+      "unit": "UND",
+      "price": 20272.5,
+      "brand": "Especiales de temporada",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "6316",
+      "name": "Lomo de Cerdo Ahumado Tajado x 500 G - 10 tajadas",
+      "unit": "UND",
+      "price": 24225.0,
+      "brand": "Especiales de temporada",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "4091",
+      "name": "Manjar Blanco x 250 G",
+      "unit": "UND",
+      "price": 5066.13333333333,
+      "brand": "Especiales de temporada",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "7239",
+      "name": "Mix de Chorizos x 600 G (chorizo italiano, ternera, campesino, santarrosano, jalapeño y champiñones) - 12 unidades en total",
+      "unit": "UND",
+      "price": 18190.0,
+      "brand": "Especiales de temporada",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "4222",
+      "name": "Nevar de Mora x 200 G",
+      "unit": "UND",
+      "price": 3672.0,
+      "brand": "Especiales de temporada",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "7258",
+      "name": "Paquete Carnicos para Brocheta Colanta x 600 G (morcilla, butifarra, chorizo ternera, campesino, santarrosano y jalapeño)",
+      "unit": "UND",
+      "price": 17467.5,
+      "brand": "Especiales de temporada",
+      "category": "Bebidas"
+    },
+    {
+      "code": "6369",
+      "name": "Pastrami x 500 G - 12 tajadas- jamón de cerdo con cubierta de pimientas",
+      "unit": "UND",
+      "price": 18572.5,
+      "brand": "Especiales de temporada",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "6333",
+      "name": "Pernil de Cerdo Ahumado x 1.500 G (bloque)",
+      "unit": "UND",
+      "price": 58777.5,
+      "brand": "Especiales de temporada",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "6335",
+      "name": "Pernil de Cerdo Ahumado x 800 G (bloque)",
+      "unit": "UND",
+      "price": 35232.5,
+      "brand": "Especiales de temporada",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "6393",
+      "name": "Pollo Relleno Tajado x 500 G - 10 tajadas",
+      "unit": "UND",
+      "price": 20527.5,
+      "brand": "Especiales de temporada",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "1991",
+      "name": "Queso Cincuentenario Colanta x 250 G",
+      "unit": "UND",
+      "price": 15204.7626204819,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1990",
+      "name": "Queso Cincuentenario Colanta x 475 G",
+      "unit": "UND",
+      "price": 24805.1870609981,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1641",
+      "name": "Queso Costeño Colanta Bloque x 1000 G",
+      "unit": "UND",
+      "price": 24915.9136212625,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1642",
+      "name": "Queso Costeño Colanta Bloque x 500 G",
+      "unit": "UND",
+      "price": 12584.5659163987,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1775",
+      "name": "Queso Holandes Colanta x 250 G",
+      "unit": "UND",
+      "price": 15916.1465217391,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1770",
+      "name": "Queso Holandes Colanta x 475 G",
+      "unit": "UND",
+      "price": 28113.289084507,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1782",
+      "name": "Queso Holandes Navideño Colanta x 250 G",
+      "unit": "UND",
+      "price": 16207.2734513274,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1781",
+      "name": "Queso Holandes Navideño Colanta x 475 G",
+      "unit": "UND",
+      "price": 28423.479375,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1968",
+      "name": "Queso Monterey Jack Colanta x 250 G",
+      "unit": "UND",
+      "price": 15247.8356024096,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1966",
+      "name": "Queso Monterey Jack Colanta x 475 G",
+      "unit": "UND",
+      "price": 24978.6499075786,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "0921",
+      "name": "Queso Monterey Jack Tajado Colanta x 250 G",
+      "unit": "UND",
+      "price": 15980.0762951807,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1564",
+      "name": "Queso para Asar Colanta x 250 G",
+      "unit": "UND",
+      "price": 7359.11764705882,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1565",
+      "name": "Queso para Asar Colanta x 500 G",
+      "unit": "UND",
+      "price": 14067.1601208459,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "1175",
+      "name": "Trío de Quesos",
+      "unit": "UND",
+      "price": 50730.0,
+      "brand": "Especiales de temporada",
+      "category": "Lácteos"
+    },
+    {
+      "code": "AR0019",
+      "name": "Arveja importada",
+      "unit": "500 GRS",
+      "price": 5295.5,
+      "brand": "Farm Frites",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "AR5022",
+      "name": "Croqueta de yuca",
+      "unit": "1000 GRS",
+      "price": 7060.0,
+      "brand": "Farm Frites",
+      "category": "Otros"
+    },
+    {
+      "code": "AR0013",
+      "name": "Maíz dulce importado en grano",
+      "unit": "1000 GRS",
+      "price": 8351.42,
+      "brand": "Farm Frites",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "AR5091",
+      "name": "Papa lisa Farm frites 10 mm",
+      "unit": "2500 GRS",
+      "price": 22939.63,
+      "brand": "Farm Frites",
+      "category": "Otros"
+    },
+    {
+      "code": "TP0117",
+      "name": "AROS DE CEBOLLA X 1000 GR",
+      "unit": "1000 GRS",
+      "price": 23051.49,
+      "brand": "Frozen Express",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "TP0100",
+      "name": "PAPA CASQUITOS X 100GR",
+      "unit": "1000 GRS",
+      "price": 13041.21,
+      "brand": "Frozen Express",
+      "category": "Otros"
+    },
+    {
+      "code": "TP0106",
+      "name": "PAPA LISA F.EXPRESS 12X12ML X 2,5 GR",
+      "unit": "2500 GRS",
+      "price": 27456.87,
+      "brand": "Frozen Express",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "TP0103",
+      "name": "PAPA LISA F.EXPRESS 9X9ML X 2,5 GR",
+      "unit": "2500 GRS",
+      "price": 28756.35,
+      "brand": "Frozen Express",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "FT0001",
+      "name": "BASE DE COCO AZUCARADA X 130G X 10UNDS",
+      "unit": "PQT",
+      "price": 34063.75,
+      "brand": "Frutalissima",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "FT0004",
+      "name": "COCO CAFÉ X 130G X 10UNDS",
+      "unit": "PQT",
+      "price": 35700.0,
+      "brand": "Frutalissima",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "FT0002",
+      "name": "LIMONADA DE COCO X 130G X 10UNDS",
+      "unit": "PQT",
+      "price": 29750.0,
+      "brand": "Frutalissima",
+      "category": "Bebidas"
+    },
+    {
+      "code": "FT0003",
+      "name": "PIÑA COLADA  X 130G X 10UNDS",
+      "unit": "PQT",
+      "price": 29750.0,
+      "brand": "Frutalissima",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "AL3803",
+      "name": "Choco Krispis Bolsa x 190G",
+      "unit": "UND",
+      "price": 8923.81,
+      "brand": "Kelloggs",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "AL7649",
+      "name": "Choco Krispis Megapaketicos x 115 gr",
+      "unit": "UND",
+      "price": 4504.15,
+      "brand": "Kelloggs",
+      "category": "Otros"
+    },
+    {
+      "code": "AL3649",
+      "name": "Choco Krispis x 8 U x 30 gr",
+      "unit": "UND",
+      "price": 10074.54,
+      "brand": "Kelloggs",
+      "category": "Otros"
+    },
+    {
+      "code": "AL4313",
+      "name": "Froot Loops Mega x 90 gr",
+      "unit": "UND",
+      "price": 4504.15,
+      "brand": "Kelloggs",
+      "category": "Otros"
+    },
+    {
+      "code": "AL3224",
+      "name": "Froot Loops x 8 U x 25 gr",
+      "unit": "UND",
+      "price": 10074.54,
+      "brand": "Kelloggs",
+      "category": "Otros"
+    },
+    {
+      "code": "AL2795",
+      "name": "Musli  Cosecha Roja *300 grs",
+      "unit": "Caja",
+      "price": 15821.0,
+      "brand": "Kelloggs",
+      "category": "Otros"
+    },
+    {
+      "code": "AL3804",
+      "name": "Zucaritas Bolsa x 190 G",
+      "unit": "UND",
+      "price": 8923.81,
+      "brand": "Kelloggs",
+      "category": "Cereales y Granos"
+    },
+    {
+      "code": "AL8391",
+      "name": "Zucaritas Caja x 680 gr",
+      "unit": "UND",
+      "price": 26009.829999999998,
+      "brand": "Kelloggs",
+      "category": "Cereales y Granos"
+    },
+    {
+      "code": "AL1833",
+      "name": "Zucaritas Megapaketicos x 115 gr",
+      "unit": "UND",
+      "price": 4611.25,
+      "brand": "Kelloggs",
+      "category": "Cereales y Granos"
+    },
+    {
+      "code": "AL3650",
+      "name": "Zucaritas x 8 U x 30 gr",
+      "unit": "UND",
+      "price": 10074.54,
+      "brand": "Kelloggs",
+      "category": "Cereales y Granos"
+    },
+    {
+      "code": "LV2391",
+      "name": "AREQUIPE REPOSTERIA X 5KG",
+      "unit": "",
+      "price": 85440.0,
+      "brand": "Levapan",
+      "category": "Lácteos"
+    },
+    {
+      "code": "LV2040",
+      "name": "AZUCAR MICROPULVERIZADA X 1KG",
+      "unit": "",
+      "price": 13282.78,
+      "brand": "Levapan",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "LV6456",
+      "name": "BOCADILLO S/J X 6.25 KG",
+      "unit": "PQT",
+      "price": 57400.0,
+      "brand": "Levapan",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "LV0810",
+      "name": "BUÑUELO COLMAIZ X 12KG",
+      "unit": "PQT",
+      "price": 89599.86,
+      "brand": "Levapan",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "LV2150",
+      "name": "COCO RALLADO AZUCARADO X 1KG",
+      "unit": "",
+      "price": 26589.36,
+      "brand": "Levapan",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "LV1172",
+      "name": "ESENCIA MANTEQUILLA X 3.800",
+      "unit": "",
+      "price": 110799.71,
+      "brand": "Levapan",
+      "category": "Lácteos"
+    },
+    {
+      "code": "LV1192",
+      "name": "ESENCIA VAINILLA BLANCA X 3.800",
+      "unit": "",
+      "price": 110799.71,
+      "brand": "Levapan",
+      "category": "Otros"
+    },
+    {
+      "code": "LV1202",
+      "name": "ESENCIA VAINILLA CARAMELLOX 3.800",
+      "unit": "",
+      "price": 110799.71,
+      "brand": "Levapan",
+      "category": "Otros"
+    },
+    {
+      "code": "LV5148",
+      "name": "GELATINA GEL HADA CEREZA X 1KG",
+      "unit": "",
+      "price": 26000.31,
+      "brand": "Levapan",
+      "category": "Enlatados y Conservas"
+    },
+    {
+      "code": "LV5038",
+      "name": "GELATINA GEL HADA FRAMBUESA X 1KG",
+      "unit": "",
+      "price": 26000.31,
+      "brand": "Levapan",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "LV5150",
+      "name": "GELATINA GEL HADA FRESA X 1KG",
+      "unit": "",
+      "price": 26000.31,
+      "brand": "Levapan",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "LV5048",
+      "name": "GELATINA GEL HADA LIMON X 1KG",
+      "unit": "",
+      "price": 26000.31,
+      "brand": "Levapan",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "LV5149",
+      "name": "GELATINA GEL HADA MORA X 1KG",
+      "unit": "",
+      "price": 26000.31,
+      "brand": "Levapan",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "LV5147",
+      "name": "GELATINA GEL HADA PIÑA X 1KG",
+      "unit": "",
+      "price": 26000.31,
+      "brand": "Levapan",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "LV5138",
+      "name": "GELATINA GEL HADA SIN SABOR X 500G",
+      "unit": "",
+      "price": 38585.75,
+      "brand": "Levapan",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "LV5139",
+      "name": "GELATINA GEL HADA SIN SABOR X 5KG",
+      "unit": "",
+      "price": 362817.91,
+      "brand": "Levapan",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "LV5010",
+      "name": "GELATINA GEL HADA UVA X 1KG",
+      "unit": "",
+      "price": 26000.31,
+      "brand": "Levapan",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "LV0011",
+      "name": "LEVADURA FRESCA X 500G",
+      "unit": "",
+      "price": 6299.86,
+      "brand": "Levapan",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "LV6408",
+      "name": "MERMELADA MORA X 5 KG",
+      "unit": "",
+      "price": 74375.0,
+      "brand": "Levapan",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "LV6428",
+      "name": "MERMELADA PIÑA X 5 KG",
+      "unit": "",
+      "price": 76414.66,
+      "brand": "Levapan",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "LV0789",
+      "name": "PANDEYUCA COLMAIZ X 12 KG",
+      "unit": "PQT",
+      "price": 169100.19,
+      "brand": "Levapan",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "LV0044",
+      "name": "POLVO HORNEAR LEVAPAN X 1K",
+      "unit": "PQT",
+      "price": 18699.66,
+      "brand": "Levapan",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "CL3459",
+      "name": "COBERT SAB CHOCOT BLANC x 1KG BLOQUE",
+      "unit": "",
+      "price": 41229.93,
+      "brand": "Luker",
+      "category": "Otros"
+    },
+    {
+      "code": "CL1126",
+      "name": "COBERT SAB CHOCOT BLANC x 2,5KG BLOQ",
+      "unit": "",
+      "price": 98933.03,
+      "brand": "Luker",
+      "category": "Otros"
+    },
+    {
+      "code": "CL3541",
+      "name": "COBERT SAB CHOCOT NEGRA x 1KG BLOQUE",
+      "unit": "",
+      "price": 34847.96,
+      "brand": "Luker",
+      "category": "Otros"
+    },
+    {
+      "code": "CL4081",
+      "name": "COBERT SAB CHOCOT NEGRA x 2,5KG BLOQUE",
+      "unit": "",
+      "price": 77614.18,
+      "brand": "Luker",
+      "category": "Otros"
+    },
+    {
+      "code": "CL0369",
+      "name": "Chips de Horneo x 20 K",
+      "unit": "",
+      "price": 759744.79,
+      "brand": "Luker",
+      "category": "Otros"
+    },
+    {
+      "code": "CL2634",
+      "name": "Cobertura Balance Negro ES 70% X 1 k",
+      "unit": "",
+      "price": 71364.3,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0359",
+      "name": "Cobertura Chocolate Blanco x 1 K",
+      "unit": "",
+      "price": 45350.9,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0360",
+      "name": "Cobertura Chocolate Blanco x 2.5 K",
+      "unit": "",
+      "price": 108826.69,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0374",
+      "name": "Cobertura Chocolate Blanco x 20 K",
+      "unit": "",
+      "price": 808503.85,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL9810",
+      "name": "Cobertura Chocolate Blanco x 500gr",
+      "unit": "",
+      "price": 19323.22,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0334",
+      "name": "Cobertura Chocolate Leche x 1 K",
+      "unit": "",
+      "price": 39619.86,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0335",
+      "name": "Cobertura Chocolate Leche x 2.5 K",
+      "unit": "",
+      "price": 93403.1,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0376",
+      "name": "Cobertura Chocolate Leche x 20 K",
+      "unit": "",
+      "price": 702937.76,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL2520",
+      "name": "Cobertura Chocolate Leche x 500gr",
+      "unit": "",
+      "price": 19323.22,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0303",
+      "name": "Cobertura Chocolate Negro x 1 K",
+      "unit": "",
+      "price": 38331.09,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0304",
+      "name": "Cobertura Chocolate Negro x 2.5 K",
+      "unit": "",
+      "price": 85374.17,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0378",
+      "name": "Cobertura Chocolate Negro x 20 K",
+      "unit": "",
+      "price": 641331.46,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL1797",
+      "name": "Cobertura Chocolate Negro x 500gr",
+      "unit": "",
+      "price": 19323.22,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL8244",
+      "name": "Cobertura Claro de Luna 37% x 1 K",
+      "unit": "",
+      "price": 40483.8,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0319",
+      "name": "Cobertura Claro de Luna 37% x 2.5 K",
+      "unit": "",
+      "price": 170774.52,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0470",
+      "name": "Cobertura Cumbre 58 % ( Sugarfree ) x 20 K",
+      "unit": "",
+      "price": 1515989.79,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL1774",
+      "name": "Cobertura Cumbre 58% ( Sugarfree ) x 1 K",
+      "unit": "",
+      "price": 76615.77,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0249",
+      "name": "Cobertura Dark Tumaco 65% x 2.5 K",
+      "unit": "",
+      "price": 182497.21,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0252",
+      "name": "Cobertura Ex. Tumaco 85% x 2.5 K",
+      "unit": "",
+      "price": 201085.01,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0280",
+      "name": "Cobertura Macondo 60% x 2.5 K",
+      "unit": "",
+      "price": 172996.25,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL8213",
+      "name": "Cobertura Misterio 58% x 1 K",
+      "unit": "",
+      "price": 39548.46,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0272",
+      "name": "Cobertura Misterio 58% x 2.5 K",
+      "unit": "",
+      "price": 172996.25,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL1042",
+      "name": "Cobertura Mulata 37% x 1 k",
+      "unit": "",
+      "price": 79280.18,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL2124",
+      "name": "Cobertura Mulata 37% x 2,5 k",
+      "unit": "",
+      "price": 110333.23,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL1780",
+      "name": "Cobertura Nevado (Blanco) x 1 K",
+      "unit": "",
+      "price": 97608.56,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0346",
+      "name": "Cobertura Nevado (Blanco) x 2.5 K",
+      "unit": "",
+      "price": 195849.01,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL1772",
+      "name": "Cobertura Palenque 70% x 1K",
+      "unit": "",
+      "price": 75820.85,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0290",
+      "name": "Cobertura Palenque 70% x 2.5K",
+      "unit": "",
+      "price": 180204.08,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL8220",
+      "name": "Cobertura Selva 46% x 1 K",
+      "unit": "",
+      "price": 65203.67,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0275",
+      "name": "Cobertura Selva 46% x 2.5 K",
+      "unit": "",
+      "price": 153609.96,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0620",
+      "name": "Cobertura Selva 46% x 20 K",
+      "unit": "",
+      "price": 1211527.1,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL2486",
+      "name": "Cobertura Sensacion Caramel 33% x 2.5 K",
+      "unit": "",
+      "price": 130281.2,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL1137",
+      "name": "Cocoa Butter x 1k",
+      "unit": "",
+      "price": 131806.78,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0403",
+      "name": "Cocoa Natural 12% x 25 K",
+      "unit": "",
+      "price": 1227271.99,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0557",
+      "name": "Cocoa Paste x 20 K",
+      "unit": "",
+      "price": 1651401.08,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0411",
+      "name": "Cocoa en Polvo Natural 16% x 1 K",
+      "unit": "",
+      "price": 64091.02,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL5022",
+      "name": "Dark Chocolate Sticks 46% 8mm x 1.5k",
+      "unit": "",
+      "price": 109769.17,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL1647",
+      "name": "LUKAFE MOLIDO X2500 G",
+      "unit": "",
+      "price": 99814.05,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL1060",
+      "name": "Luker Fácil x 1000 G",
+      "unit": "",
+      "price": 37668.75,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL0542",
+      "name": "Manteca de Cacao x 25 K",
+      "unit": "",
+      "price": 3259517.1,
+      "brand": "Luker",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "CL1576",
+      "name": "Nutella  X750G",
+      "unit": "",
+      "price": 46740.82,
+      "brand": "Luker",
+      "category": "Otros"
+    },
+    {
+      "code": "MD6910",
+      "name": "Galleta Club Social Integral x 9 U x 26 gr.",
+      "unit": "UND",
+      "price": 6652.1,
+      "brand": "Mondelez",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "MD1000",
+      "name": "Galleta Club Social x 9 U x 26 gr.",
+      "unit": "UND",
+      "price": 6652.1,
+      "brand": "Mondelez",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "MD3100",
+      "name": "Galleta Oreo 12 x 4 U x 36 gr.",
+      "unit": "UND",
+      "price": 11900.0,
+      "brand": "Mondelez",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "MD0100",
+      "name": "Galleta Oreo 6 x 6 U x 54 gr.",
+      "unit": "UND",
+      "price": 7899.22,
+      "brand": "Mondelez",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "MD7623",
+      "name": "Galleta Oreo Trozos Medianos x 4kg",
+      "unit": "UND",
+      "price": 76768.09,
+      "brand": "Mondelez",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "MD7622",
+      "name": "Galleta Oreo Trozos Pequeños x 4kg",
+      "unit": "UND",
+      "price": 76768.09,
+      "brand": "Mondelez",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "MD6800",
+      "name": "Galleta Oreos en trozos x 500gr",
+      "unit": "UND",
+      "price": 11754.82,
+      "brand": "Mondelez",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "MD2000",
+      "name": "Oreo rollo slug x 108 gr",
+      "unit": "UND",
+      "price": 2650.13,
+      "brand": "Mondelez",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "TF0928",
+      "name": "BEBIDA DE ALMENDRA Coco*946 ml. Nature Heart",
+      "unit": "Tetrapack",
+      "price": 12327.21,
+      "brand": "Nestle Professional",
+      "category": "Bebidas"
+    },
+    {
+      "code": "TF1789",
+      "name": "BEBIDA DE ALMENDRA Sin azucar*946 ml. Nature Heart",
+      "unit": "Tetrapack",
+      "price": 13189.96,
+      "brand": "Nestle Professional",
+      "category": "Bebidas"
+    },
+    {
+      "code": "TF1796",
+      "name": "BEBIDA DE ALMENDRA Vainilla*946 ml. Nature Heart",
+      "unit": "Tetrapack",
+      "price": 12327.21,
+      "brand": "Nestle Professional",
+      "category": "Bebidas"
+    },
+    {
+      "code": "TF0669",
+      "name": "BEBIDA DE ALMENDRA*946 ml. Nature Heart",
+      "unit": "Tetrapack",
+      "price": 13189.96,
+      "brand": "Nestle Professional",
+      "category": "Bebidas"
+    },
+    {
+      "code": "NT0517",
+      "name": "CALDO GALLINA MAGGI POLVO* 1600 Grs",
+      "unit": "BOLSA",
+      "price": 45753.12,
+      "brand": "Nestle Professional",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "NT5452",
+      "name": "CALDO GALLINA MAGGI*270 Cubos",
+      "unit": "DISPLAY",
+      "price": 90866.02,
+      "brand": "Nestle Professional",
+      "category": "Salsas y Condimentos"
+    },
+    {
+      "code": "NT1257",
+      "name": "COBERTURA DE CACAO LECHE *10k",
+      "unit": "BOLSA",
+      "price": 330604.61,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT5809",
+      "name": "COBERTURA DE CACAO LECHE *5K",
+      "unit": "BOLSA",
+      "price": 183674.12,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT5811",
+      "name": "COBERTURA DE CACAO SEMIAMARGA X 5K",
+      "unit": "BOLSA",
+      "price": 175573.79,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT7989",
+      "name": "GALLETA ANILLOS MILO X 12U X 32.5G",
+      "unit": "PAQUETE",
+      "price": 10926.58,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT7410",
+      "name": "KLIM FRORTIFICADA  BOLSA X 2,4K",
+      "unit": "BOLSA",
+      "price": 99822.0,
+      "brand": "Nestle Professional",
+      "category": "Lácteos"
+    },
+    {
+      "code": "NT3231",
+      "name": "L . CONDENSADA LA LECHERA *800 Grs",
+      "unit": "BOLSA",
+      "price": 18349.0,
+      "brand": "Nestle Professional",
+      "category": "Lácteos"
+    },
+    {
+      "code": "NT1804",
+      "name": "L . CONDENSADA LA LECHERA*395 Grs",
+      "unit": "LATA",
+      "price": 11629.0,
+      "brand": "Nestle Professional",
+      "category": "Lácteos"
+    },
+    {
+      "code": "NT9715",
+      "name": "L . CONDENSADA LA LECHERA*4.500 Grs",
+      "unit": "BOLSA",
+      "price": 88755.0,
+      "brand": "Nestle Professional",
+      "category": "Lácteos"
+    },
+    {
+      "code": "NT0676",
+      "name": "MILO *2.000 Grs",
+      "unit": "BOLSA",
+      "price": 70965.65,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT2599",
+      "name": "MILO *2.500 Grs",
+      "unit": "BOLSA",
+      "price": 85170.68,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT5418",
+      "name": "MILO DOY PACK UNTABLE X 1KG",
+      "unit": "BOLSA",
+      "price": 62358.38,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT0738",
+      "name": "MILO NUGGETS DISPLAY X 18U X40G",
+      "unit": "PAQUETE",
+      "price": 59635.66,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT8087",
+      "name": "MILO NUTRIFIT X 500G",
+      "unit": "BOLSA",
+      "price": 23527.49,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT5141",
+      "name": "MILO VENDING* 1500 Grs",
+      "unit": "BOLSA",
+      "price": 120455.37,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT7795",
+      "name": "MORENITAS BITES GALLETAS X 600G",
+      "unit": "BOLSA",
+      "price": 34861.05,
+      "brand": "Nestle Professional",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "NT1155",
+      "name": "NESCAFE DOLCA BOLSA X 1KG",
+      "unit": "BOLSA",
+      "price": 93525.67,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT2846",
+      "name": "NESCAFE TRADICION DISPLAY X 144U X 1.5G",
+      "unit": "DISPLAY",
+      "price": 38463.6,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "NT6178",
+      "name": "NESCAFE TRADICION LATA X 500G",
+      "unit": "LATA",
+      "price": 56345.1,
+      "brand": "Nestle Professional",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L62208",
+      "name": "ACEITE GOURMET * 1000 cc",
+      "unit": "FRASCO",
+      "price": 7572.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L62604",
+      "name": "ACEITE GOURMET * 3000 cc",
+      "unit": "GARRAFA",
+      "price": 22038.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L62154",
+      "name": "ACEITE GOURMET * 500 cc",
+      "unit": "FRASCO",
+      "price": 4127.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L62659",
+      "name": "ACEITE GOURMET * 5000 cc",
+      "unit": "GARRAFA",
+      "price": 36351.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L00709",
+      "name": "ACEITE GOURMET CANOLA *1000 cc",
+      "unit": "FRASCO",
+      "price": 9502.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L42200",
+      "name": "ACEITE OLIOSOYA * 1000 cc",
+      "unit": "FRASCO",
+      "price": 5364.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L42101",
+      "name": "ACEITE OLIOSOYA * 250 cc",
+      "unit": "FRASCO",
+      "price": 1663.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L42507",
+      "name": "ACEITE OLIOSOYA * 3000 cc",
+      "unit": "GARRAFA",
+      "price": 15610.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L42156",
+      "name": "ACEITE OLIOSOYA * 500 cc",
+      "unit": "FRASCO",
+      "price": 3003.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L42705",
+      "name": "ACEITE OLIOSOYA * 5000 cc",
+      "unit": "GARRAFA",
+      "price": 25750.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L06890",
+      "name": "ATUN VIKINGOS LOMO ACEITE *170 grs",
+      "unit": "LATA",
+      "price": 3074.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L06906",
+      "name": "ATUN VIKINGOS LOMO AGUA *170grs",
+      "unit": "LATA",
+      "price": 2958.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L60758",
+      "name": "C. AROMA GRANULADO *170gr.",
+      "unit": "JARRA",
+      "price": 8041.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Otros"
+    },
+    {
+      "code": "L60376",
+      "name": "CAFE AROMA GRANULADO *50grs.",
+      "unit": "FRASC",
+      "price": 2705.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L60543",
+      "name": "CAFE AROMA GRANULADO *85grs.",
+      "unit": "FRASC",
+      "price": 4499.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L52516",
+      "name": "CAFE M.LUKAFE *2500g. CLASICO",
+      "unit": "BOLSA",
+      "price": 33187.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L60345",
+      "name": "CAFÉ AROMA SOLUBLE *50grs",
+      "unit": "FRASC",
+      "price": 2437.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L60352",
+      "name": "CAFÉ AROMA SOLUBLE *85grs",
+      "unit": "FRASC",
+      "price": 4048.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L65018",
+      "name": "CHOCOEXPRES *125 grs",
+      "unit": "SOBRE",
+      "price": 1877.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "L65048",
+      "name": "CHOCOEXPRESS *200 grs",
+      "unit": "BOLSA",
+      "price": 2923.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Carnes y Embutidos"
+    },
+    {
+      "code": "L85028",
+      "name": "CLIGHT x 10 grs.SOBRE",
+      "unit": "SOBRE",
+      "price": 657.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L68254",
+      "name": "COCOA LUKER 12% *25 Kilos",
+      "unit": "BULTO",
+      "price": 176000.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L90381",
+      "name": "CREMA LAVALOZA FASSI *250",
+      "unit": "TARRO",
+      "price": 2761.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L90404",
+      "name": "CREMA LAVALOZA FASSI *450",
+      "unit": "TARRO",
+      "price": 1404.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L00236",
+      "name": "DET.POLVO GRANDIOSO * 2800 grs",
+      "unit": "BOLSA",
+      "price": 16820.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L00021",
+      "name": "DET.POLVO GRANDIOSO * 400 grs",
+      "unit": "BOLSA",
+      "price": 1447.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L00038",
+      "name": "DET.POLVO GRANDIOSO * 900 grs",
+      "unit": "BOLSA",
+      "price": 3213.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L02851",
+      "name": "GALLETA C.SOCIAL FRESA D*9Un.",
+      "unit": "PAQ.",
+      "price": 2379.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L01694",
+      "name": "GALLETA C.SOCIAL INT. D*9",
+      "unit": "DPL",
+      "price": 2379.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L03446",
+      "name": "GALLETA C.SOCIAL JAMON D*9",
+      "unit": "UNID.",
+      "price": 2379.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L05106",
+      "name": "GALLETA CLUB SOCIAL D*9 x 279gr",
+      "unit": "DISP.",
+      "price": 2379.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L06390",
+      "name": "GALLETA HONY D*9",
+      "unit": "DISP.",
+      "price": 3368.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L51110",
+      "name": "GALLETA OREO D*12 432g.",
+      "unit": "DISP.",
+      "price": 4026.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Dulces y Confitería"
+    },
+    {
+      "code": "L72248",
+      "name": "GALLETAS RITZ QUESO D*6Un.",
+      "unit": "DISP",
+      "price": 3475.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L91944",
+      "name": "GEL SIN SABOR *7.5 grs.",
+      "unit": "DISP.",
+      "price": 389.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "L55302",
+      "name": "GELATINA SAROMA *45grs.",
+      "unit": "UNID.",
+      "price": 653.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "L65064",
+      "name": "H.RICAMASA AMARILLA*1000grs.",
+      "unit": "BOLSA",
+      "price": 1914.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "L61066",
+      "name": "H.RICAMASA BLANCA*1000grs.",
+      "unit": "BOLSA",
+      "price": 1914.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Panadería y Repostería"
+    },
+    {
+      "code": "L32379",
+      "name": "LIMPIADOR LAVANDA *750ml",
+      "unit": "FRASCO",
+      "price": 2341.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L02373",
+      "name": "LIMPIADOR POPOURRI *750ml",
+      "unit": "FRASCO",
+      "price": 2341.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Limpieza y Hogar"
+    },
+    {
+      "code": "L12021",
+      "name": "LUKER AMARGO *250 grs",
+      "unit": "BARRA",
+      "price": 3721.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L12014",
+      "name": "LUKER AMARGO / Clavos y canela*125 grs",
+      "unit": "BARRA",
+      "price": 1869.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L12175",
+      "name": "LUKER AMARGO D*64 1000 grs",
+      "unit": "TARRO",
+      "price": 15997.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L12151",
+      "name": "LUKER AMARGO D32 *500 grs",
+      "unit": "TARRO",
+      "price": 7998.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L14018",
+      "name": "LUKER clavos y canela D32 *500 grs",
+      "unit": "TARRO",
+      "price": 7998.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Café y Chocolate"
+    },
+    {
+      "code": "L81227",
+      "name": "MARG. BUENA D*20Un. *125 grs",
+      "unit": "BARRA",
+      "price": 18489.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L81203",
+      "name": "MARG. BUENA D*4Un.*125 grs",
+      "unit": "BARRA",
+      "price": 3698.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L00372",
+      "name": "MARG.CAMPI LIGHT *250 grs",
+      "unit": "UND.",
+      "price": 2710.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L81029",
+      "name": "MARGARINA BUENA *250 grs.",
+      "unit": "BARRA",
+      "price": 1836.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L81036",
+      "name": "MARGARINA BUENA *500 grs.",
+      "unit": "BARRA",
+      "price": 3667.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L01192",
+      "name": "MARGARINA CAMPI *1000 grs",
+      "unit": "UNID.",
+      "price": 8449.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L01000",
+      "name": "MARGARINA CAMPI *250 grs.",
+      "unit": "TARRO",
+      "price": 2507.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L01154",
+      "name": "MARGARINA CAMPI *500 grs.",
+      "unit": "TARRO",
+      "price": 4763.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Lácteos"
+    },
+    {
+      "code": "L85370",
+      "name": "TANG INST. MANDARINA * 810gr.",
+      "unit": "UNID.",
+      "price": 6365.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L85364",
+      "name": "TANG INST. MORA * 810gr.",
+      "unit": "BOLSA",
+      "price": 6365.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "L85363",
+      "name": "TANG INST. NARANJA * 810grs.",
+      "unit": "BOLSA",
+      "price": 6365.0,
+      "brand": "PORTAFOLIO NUEVO TAT",
+      "category": "Bebidas"
+    },
+    {
+      "code": "RK7300",
+      "name": "BANDEJA DE PAPEL 21*15 CM X 20 UNID",
+      "unit": "PQTE",
+      "price": 3715.1800000000003,
+      "brand": "Realpack",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "RK6006",
+      "name": "CUCHARA PLAST GRANDE X 20 UNIDADES",
+      "unit": "PQTE",
+      "price": 1161.44,
+      "brand": "Realpack",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "RK6016",
+      "name": "CUCHILLO PLAST GRANDE X 20 UNIDADES",
+      "unit": "PQTE",
+      "price": 1161.44,
+      "brand": "Realpack",
+      "category": "Otros"
+    },
+    {
+      "code": "RK2013",
+      "name": "PAPEL ALUMINIO CAJA X 100 MTS",
+      "unit": "UND",
+      "price": 28370.79,
+      "brand": "Realpack",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "RK1005",
+      "name": "PAPEL ALUMINIO RTO X 13 MTS",
+      "unit": "UND",
+      "price": 4311.37,
+      "brand": "Realpack",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "RK1009",
+      "name": "PAPEL ALUMINIO RTO X 40 MTS",
+      "unit": "UND",
+      "price": 11126.5,
+      "brand": "Realpack",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "RK1001",
+      "name": "PAPEL ALUMINIO RTO X 7 MTS",
+      "unit": "UND",
+      "price": 2334.78,
+      "brand": "Realpack",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "RK7101",
+      "name": "PLATO DE PAPEL GDE BC 23 CM X 20 UNID",
+      "unit": "PQTE",
+      "price": 3541.44,
+      "brand": "Realpack",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "RK7096",
+      "name": "PLATO DE PAPEL GDE BC 25 CM X 20 UNID",
+      "unit": "PQTE",
+      "price": 5050.36,
+      "brand": "Realpack",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "RK7103",
+      "name": "PLATO DE PAPEL PÑO BC 15 CM X 20 UNID",
+      "unit": "PQTE",
+      "price": 1914.71,
+      "brand": "Realpack",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "RK6011",
+      "name": "TENEDOR PLAST GRANDE X 20 UNIDADES",
+      "unit": "PQTE",
+      "price": 1161.44,
+      "brand": "Realpack",
+      "category": "Empaques y Desechables"
+    },
+    {
+      "code": "ST0500",
+      "name": "Champiñon Blanco x 500 G",
+      "unit": "UND",
+      "price": 11222.0,
+      "brand": "Setas",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "ST1211",
+      "name": "Champiñon Entero Bandeja x 1000 G",
+      "unit": "UND",
+      "price": 21389.0,
+      "brand": "Setas",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "ST1113",
+      "name": "Champiñon Entero Crimini x 1000 G",
+      "unit": "UND",
+      "price": 28111.0,
+      "brand": "Setas",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "ST1114",
+      "name": "Champiñon Entero Oyster x 1000 G",
+      "unit": "UND",
+      "price": 22500.0,
+      "brand": "Setas",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "ST1112",
+      "name": "Champiñon Portobello x 1000 G",
+      "unit": "UND",
+      "price": 28111.0,
+      "brand": "Setas",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "ST0350",
+      "name": "Champiñon Portobello x 350 G",
+      "unit": "UND",
+      "price": 11722.0,
+      "brand": "Setas",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "ST1221",
+      "name": "Champiñon Tajado Bandeja x 1000 G",
+      "unit": "UND",
+      "price": 21389.0,
+      "brand": "Setas",
+      "category": "Frutas y Verduras"
+    },
+    {
+      "code": "ST3241",
+      "name": "Champiñon Tajado Lata x 3000 G",
+      "unit": "UND",
+      "price": 0.0,
+      "brand": "Setas",
+      "category": "Frutas y Verduras"
+    }
+  ],
+  "brands": [
+    "Aceites",
+    "Bary",
+    "COLANTA",
+    "Colanta Helados",
+    "Darnel Wraps",
+    "Dulces Flowers",
+    "E4",
+    "EcoPapel",
+    "Especiales de temporada",
+    "Farm Frites",
+    "Frozen Express",
+    "Frutalissima",
+    "Kelloggs",
+    "Levapan",
+    "Luker",
+    "Mondelez",
+    "Nestle Professional",
+    "PORTAFOLIO NUEVO TAT",
+    "Realpack",
+    "Setas"
+  ],
+  "categories": [
+    "Bebidas",
+    "Café y Chocolate",
+    "Carnes y Embutidos",
+    "Cereales y Granos",
+    "Congelados",
+    "Dulces y Confitería",
+    "Empaques y Desechables",
+    "Enlatados y Conservas",
+    "Frutas y Verduras",
+    "Limpieza y Hogar",
+    "Lácteos",
+    "Otros",
+    "Panadería y Repostería",
+    "Salsas y Condimentos"
+  ],
+  "total_products": 414
+}

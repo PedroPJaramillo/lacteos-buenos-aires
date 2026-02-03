@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lácteos Buenos Aires - Catálogo de Productos</title>
+    <!-- jsPDF for PDF export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.1/jspdf.plugin.autotable.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1e40af;
+            --primary-light: #3b82f6;
+            --secondary: #059669;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.5;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 1.5rem 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        header p {
+            font-size: 0.875rem;
+            opacity: 0.9;
+        }
+
+        /* Search and Filters */
+        .filters-container {
+            background: var(--card-bg);
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 80px;
+            z-index: 90;
+        }
+
+        .filters-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.75rem 1rem 0.75rem 2.5rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--primary-light);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-light);
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .filter-group label {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-light);
+            margin-bottom: 0.25rem;
+            text-transform: uppercase;
+        }
+
+        .filter-group select {
+            width: 100%;
+            padding: 0.5rem;
+            border: 2px solid var(--border);
+            border-radius: 6px;
+            font-size: 0.875rem;
+            background: white;
+            cursor: pointer;
+        }
+
+        .filter-group select:focus {
+            outline: none;
+            border-color: var(--primary-light);
+        }
+
+        /* Stats bar */
+        .stats-bar {
+            background: var(--card-bg);
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.875rem;
+            color: var(--text-light);
+        }
+
+        .stats-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .stats-bar strong {
+            color: var(--text);
+        }
+
+        .clear-filters {
+            background: none;
+            border: none;
+            color: var(--primary-light);
+            cursor: pointer;
+            font-size: 0.875rem;
+            text-decoration: underline;
+        }
+
+        .clear-filters:hover {
+            color: var(--primary);
+        }
+
+        .stats-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        /* View toggle */
+        .view-toggle {
+            display: flex;
+            gap: 0.25rem;
+            background: var(--border);
+            padding: 0.25rem;
+            border-radius: 6px;
+        }
+
+        .view-btn {
+            background: none;
+            border: none;
+            padding: 0.4rem 0.6rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            line-height: 1;
+            transition: background 0.2s;
+        }
+
+        .view-btn:hover {
+            background: rgba(255,255,255,0.5);
+        }
+
+        .view-btn.active {
+            background: white;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        /* Export button */
+        .export-btn {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: background 0.2s;
+        }
+
+        .export-btn:hover {
+            background: #047857;
+        }
+
+        .export-btn:disabled {
+            background: var(--text-light);
+            cursor: not-allowed;
+        }
+
+        /* Main content */
+        main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        /* Product grid */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .product-card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            border: 1px solid var(--border);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .product-brand {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-category {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-left: 0.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-name {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .product-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .product-code {
+            font-size: 0.75rem;
+            color: var(--text-light);
+        }
+
+        .product-unit {
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+
+        .product-price {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--secondary);
+        }
+
+        /* Table/Grid view */
+        .products-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--card-bg);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+
+        .products-table thead {
+            background: var(--primary);
+            color: white;
+        }
+
+        .products-table th {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+        }
+
+        .products-table td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.875rem;
+        }
+
+        .products-table tbody tr:hover {
+            background: #f1f5f9;
+        }
+
+        .products-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .products-table .table-brand {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .products-table .table-category {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .products-table .table-price {
+            font-weight: 700;
+            color: var(--secondary);
+            white-space: nowrap;
+        }
+
+        .products-table .table-code {
+            color: var(--text-light);
+            font-family: monospace;
+            font-size: 0.8rem;
+        }
+
+        /* Loading state */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-light);
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-light);
+        }
+
+        .empty-state h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-light);
+            font-size: 0.875rem;
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            header {
+                padding: 1rem;
+            }
+
+            header h1 {
+                font-size: 1.25rem;
+            }
+
+            .filters-container {
+                top: 70px;
+            }
+
+            .filter-row {
+                flex-direction: column;
+            }
+
+            .filter-group {
+                width: 100%;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .product-card {
+                padding: 0.875rem;
+            }
+
+            .products-table th,
+            .products-table td {
+                padding: 0.5rem;
+                font-size: 0.8rem;
+            }
+
+            .products-table .hide-mobile {
+                display: none;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            header, .filters-container, .stats-bar, footer {
+                display: none;
+            }
+
+            .products-grid {
+                display: block;
+            }
+
+            .product-card {
+                break-inside: avoid;
+                margin-bottom: 0.5rem;
+                box-shadow: none;
+                border: 1px solid #ccc;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Lácteos Buenos Aires S.A.S</h1>
+            <p>Catálogo de Productos</p>
+        </div>
+    </header>
+
+    <div class="filters-container">
+        <div class="filters-content">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="Buscar productos por nombre o código...">
+            </div>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label>Marca / Proveedor</label>
+                    <select id="brandFilter">
+                        <option value="">Todas las marcas</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Categoría</label>
+                    <select id="categoryFilter">
+                        <option value="">Todas las categorías</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-bar">
+        <div class="stats-content">
+            <span>Mostrando <strong id="visibleCount">0</strong> de <strong id="totalCount">0</strong> productos</span>
+            <div class="stats-right">
+                <button class="clear-filters" id="clearFilters" style="display: none;">Limpiar filtros</button>
+                <button class="export-btn" id="exportPdf" title="Exportar a PDF">
+                    <span>PDF</span>
+                </button>
+                <div class="view-toggle">
+                    <button class="view-btn active" id="viewCards" title="Vista tarjetas">▦</button>
+                    <button class="view-btn" id="viewTable" title="Vista tabla">☰</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div id="productsContainer" class="products-grid">
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <p>Cargando catálogo...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Lácteos Buenos Aires S.A.S - CALLE 26A No 43F-14 MEDELLÍN - PBX: 262 41 41</p>
+    </footer>
+
+    <script>
+        // Global state
+        let allProducts = [];
+        let brands = [];
+        let categories = [];
+        let currentView = 'cards'; // 'cards' or 'table'
+
+        // DOM elements
+        const productsContainer = document.getElementById('productsContainer');
+        const searchInput = document.getElementById('searchInput');
+        const brandFilter = document.getElementById('brandFilter');
+        const categoryFilter = document.getElementById('categoryFilter');
+        const visibleCount = document.getElementById('visibleCount');
+        const totalCount = document.getElementById('totalCount');
+        const clearFiltersBtn = document.getElementById('clearFilters');
+        const viewCardsBtn = document.getElementById('viewCards');
+        const viewTableBtn = document.getElementById('viewTable');
+        const exportPdfBtn = document.getElementById('exportPdf');
+
+        // Logo image for PDF (will be loaded)
+        let logoDataUrl = null;
+
+        // Format price as Colombian Pesos
+        function formatPrice(price) {
+            if (!price || price === 0) return '';
+            return new Intl.NumberFormat('es-CO', {
+                style: 'currency',
+                currency: 'COP',
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(price);
+        }
+
+        // Render a single product card
+        function renderProductCard(product) {
+            const priceDisplay = product.price > 0 ? formatPrice(product.price) : '';
+
+            return `
+                <div class="product-card">
+                    <span class="product-brand">${escapeHtml(product.brand)}</span>
+                    <span class="product-category">${escapeHtml(product.category)}</span>
+                    <h3 class="product-name">${escapeHtml(product.name)}</h3>
+                    <div class="product-details">
+                        <div>
+                            <div class="product-code">Código: ${escapeHtml(product.code)}</div>
+                            ${product.unit ? `<div class="product-unit">${escapeHtml(product.unit)}</div>` : ''}
+                        </div>
+                        ${priceDisplay ? `<div class="product-price">${priceDisplay}</div>` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Render a single table row
+        function renderTableRow(product) {
+            const priceDisplay = product.price > 0 ? formatPrice(product.price) : '-';
+
+            return `
+                <tr>
+                    <td><span class="table-code">${escapeHtml(product.code)}</span></td>
+                    <td>${escapeHtml(product.name)}</td>
+                    <td class="hide-mobile"><span class="table-brand">${escapeHtml(product.brand)}</span></td>
+                    <td class="hide-mobile"><span class="table-category">${escapeHtml(product.category)}</span></td>
+                    <td>${escapeHtml(product.unit) || '-'}</td>
+                    <td><span class="table-price">${priceDisplay}</span></td>
+                </tr>
+            `;
+        }
+
+        // Render products as table
+        function renderTable(products) {
+            return `
+                <table class="products-table">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Producto</th>
+                            <th class="hide-mobile">Marca</th>
+                            <th class="hide-mobile">Categoría</th>
+                            <th>Unidad</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${products.map(renderTableRow).join('')}
+                    </tbody>
+                </table>
+            `;
+        }
+
+        // Escape HTML to prevent XSS
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Filter and render products
+        function filterAndRender() {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const selectedBrand = brandFilter.value;
+            const selectedCategory = categoryFilter.value;
+
+            const filtered = allProducts.filter(product => {
+                // Search filter
+                if (searchTerm) {
+                    const matchesSearch =
+                        product.name.toLowerCase().includes(searchTerm) ||
+                        product.code.toLowerCase().includes(searchTerm);
+                    if (!matchesSearch) return false;
+                }
+
+                // Brand filter
+                if (selectedBrand && product.brand !== selectedBrand) {
+                    return false;
+                }
+
+                // Category filter
+                if (selectedCategory && product.category !== selectedCategory) {
+                    return false;
+                }
+
+                return true;
+            });
+
+            // Update counts
+            visibleCount.textContent = filtered.length;
+
+            // Show/hide clear filters button
+            const hasFilters = searchTerm || selectedBrand || selectedCategory;
+            clearFiltersBtn.style.display = hasFilters ? 'inline' : 'none';
+
+            // Render products based on current view
+            if (filtered.length === 0) {
+                productsContainer.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No se encontraron productos</h3>
+                        <p>Intenta con otros términos de búsqueda o filtros</p>
+                    </div>
+                `;
+                productsContainer.className = '';
+            } else if (currentView === 'table') {
+                productsContainer.innerHTML = renderTable(filtered);
+                productsContainer.className = '';
+            } else {
+                productsContainer.innerHTML = filtered.map(renderProductCard).join('');
+                productsContainer.className = 'products-grid';
+            }
+        }
+
+        // Switch view mode
+        function setView(view) {
+            currentView = view;
+            viewCardsBtn.classList.toggle('active', view === 'cards');
+            viewTableBtn.classList.toggle('active', view === 'table');
+            filterAndRender();
+        }
+
+        // Load logo as data URL for PDF
+        function loadLogo() {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                img.onload = function() {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0);
+                    logoDataUrl = canvas.toDataURL('image/png');
+                    resolve(logoDataUrl);
+                };
+                img.onerror = function() {
+                    resolve(null);
+                };
+                img.src = 'logo.png';
+            });
+        }
+
+        // Get current filtered products
+        function getFilteredProducts() {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const selectedBrand = brandFilter.value;
+            const selectedCategory = categoryFilter.value;
+
+            return allProducts.filter(product => {
+                if (searchTerm) {
+                    const matchesSearch =
+                        product.name.toLowerCase().includes(searchTerm) ||
+                        product.code.toLowerCase().includes(searchTerm);
+                    if (!matchesSearch) return false;
+                }
+                if (selectedBrand && product.brand !== selectedBrand) return false;
+                if (selectedCategory && product.category !== selectedCategory) return false;
+                return true;
+            });
+        }
+
+        // Format price for PDF (without currency symbol for cleaner look)
+        function formatPricePdf(price) {
+            if (!price || price === 0) return '-';
+            return new Intl.NumberFormat('es-CO', {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(price);
+        }
+
+        // Export to PDF
+        async function exportToPdf() {
+            const { jsPDF } = window.jspdf;
+            const filtered = getFilteredProducts();
+
+            if (filtered.length === 0) {
+                alert('No hay productos para exportar');
+                return;
+            }
+
+            exportPdfBtn.disabled = true;
+            exportPdfBtn.innerHTML = '<span>Generando...</span>';
+
+            try {
+                // Load logo if not already loaded
+                if (!logoDataUrl) {
+                    await loadLogo();
+                }
+
+                // Create PDF (A4 size)
+                const doc = new jsPDF('p', 'mm', 'a4');
+                const pageWidth = doc.internal.pageSize.getWidth();
+                const pageHeight = doc.internal.pageSize.getHeight();
+                const margin = 12;
+
+                // Colors
+                const primaryBlue = [30, 64, 175];
+                const darkText = [15, 23, 42];
+                const grayText = [100, 116, 139];
+                const lightGray = [241, 245, 249];
+                const accentGreen = [5, 150, 105];
+
+                // Get filter info for title
+                const selectedBrandVal = brandFilter.value;
+                const selectedCategoryVal = categoryFilter.value;
+                let subtitle = 'Catálogo Completo';
+                if (selectedBrandVal) subtitle = selectedBrandVal;
+                else if (selectedCategoryVal) subtitle = selectedCategoryVal;
+
+                const today = new Date().toLocaleDateString('es-CO', {
+                    year: 'numeric', month: 'long', day: 'numeric'
+                });
+
+                // Header function for each page
+                const addHeader = (pageNum) => {
+                    // White background for header area (to cover any table overflow)
+                    doc.setFillColor(255, 255, 255);
+                    doc.rect(0, 0, pageWidth, 38, 'F');
+
+                    // Top accent bar
+                    doc.setFillColor(...primaryBlue);
+                    doc.rect(0, 0, pageWidth, 2, 'F');
+
+                    // Logo area (left side) - smaller and positioned better
+                    if (logoDataUrl) {
+                        try {
+                            doc.addImage(logoDataUrl, 'PNG', margin, 6, 28, 14);
+                        } catch (e) {
+                            doc.setFontSize(12);
+                            doc.setFont('helvetica', 'bold');
+                            doc.setTextColor(...primaryBlue);
+                            doc.text('LÁCTEOS BUENOS AIRES', margin, 14);
+                        }
+                    }
+
+                    // Company name and info (right of logo or right side)
+                    doc.setFontSize(11);
+                    doc.setFont('helvetica', 'bold');
+                    doc.setTextColor(...darkText);
+                    doc.text('Lácteos Buenos Aires S.A.S', margin + 32, 11);
+
+                    doc.setFontSize(7);
+                    doc.setFont('helvetica', 'normal');
+                    doc.setTextColor(...grayText);
+                    doc.text('Calle 26A No 43F-14, Medellín  |  PBX: 262 41 41', margin + 32, 16);
+
+                    // Date (right side)
+                    doc.setFontSize(8);
+                    doc.text(today, pageWidth - margin, 11, { align: 'right' });
+
+                    // Divider line
+                    doc.setDrawColor(226, 232, 240);
+                    doc.setLineWidth(0.3);
+                    doc.line(margin, 24, pageWidth - margin, 24);
+
+                    // Title and subtitle in one line
+                    doc.setFontSize(12);
+                    doc.setFont('helvetica', 'bold');
+                    doc.setTextColor(...darkText);
+                    doc.text('Lista de Precios:', margin, 32);
+
+                    doc.setFont('helvetica', 'normal');
+                    doc.setTextColor(...primaryBlue);
+                    doc.text(subtitle, margin + 36, 32);
+
+                    // Product count (right)
+                    doc.setFontSize(8);
+                    doc.setTextColor(...grayText);
+                    doc.text(`${filtered.length} productos`, pageWidth - margin, 32, { align: 'right' });
+                };
+
+                // Footer function
+                const addFooter = (pageNum, totalPages) => {
+                    const footerY = pageHeight - 8;
+
+                    // Footer background
+                    doc.setFillColor(248, 250, 252);
+                    doc.rect(0, footerY - 6, pageWidth, 14, 'F');
+
+                    // Footer line
+                    doc.setDrawColor(226, 232, 240);
+                    doc.setLineWidth(0.3);
+                    doc.line(0, footerY - 6, pageWidth, footerY - 6);
+
+                    // Company name left
+                    doc.setFontSize(7);
+                    doc.setFont('helvetica', 'bold');
+                    doc.setTextColor(...primaryBlue);
+                    doc.text('Lácteos Buenos Aires S.A.S', margin, footerY);
+
+                    // Page number center
+                    doc.setFont('helvetica', 'normal');
+                    doc.setTextColor(...grayText);
+                    doc.text(`Página ${pageNum} de ${totalPages}`, pageWidth / 2, footerY, { align: 'center' });
+
+                    // NIT right
+                    doc.text('NIT: 800-136-998-1', pageWidth - margin, footerY, { align: 'right' });
+                };
+
+                // Prepare table data
+                const tableData = filtered.map(p => [
+                    p.code,
+                    p.name,
+                    p.brand,
+                    p.unit || '-',
+                    `$ ${formatPricePdf(p.price)}`
+                ]);
+
+                // Add table with auto-pagination
+                doc.autoTable({
+                    head: [['Código', 'Producto', 'Marca', 'Unidad', 'Precio']],
+                    body: tableData,
+                    startY: 38,
+                    margin: { left: margin, right: margin, top: 38, bottom: 18 },
+                    styles: {
+                        fontSize: 8,
+                        cellPadding: 2.5,
+                        lineColor: [226, 232, 240],
+                        lineWidth: 0.1,
+                    },
+                    headStyles: {
+                        fillColor: primaryBlue,
+                        textColor: 255,
+                        fontStyle: 'bold',
+                        fontSize: 8,
+                        cellPadding: 3,
+                    },
+                    bodyStyles: {
+                        textColor: darkText,
+                    },
+                    columnStyles: {
+                        0: { cellWidth: 22, fontStyle: 'bold', textColor: grayText },
+                        1: { cellWidth: 'auto' },
+                        2: { cellWidth: 28, fontSize: 7 },
+                        3: { cellWidth: 18, halign: 'center' },
+                        4: { cellWidth: 28, halign: 'right', fontStyle: 'bold', textColor: accentGreen },
+                    },
+                    alternateRowStyles: {
+                        fillColor: lightGray,
+                    },
+                    didDrawPage: function(data) {
+                        addHeader(data.pageNumber);
+                    },
+                });
+
+                // Add footers to all pages
+                const totalPages = doc.internal.getNumberOfPages();
+                for (let i = 1; i <= totalPages; i++) {
+                    doc.setPage(i);
+                    addFooter(i, totalPages);
+                }
+
+                // Generate filename
+                let filename = 'lista-precios-lacteos-buenos-aires';
+                if (brandFilter.value) {
+                    filename = `lista-precios-${brandFilter.value.toLowerCase().replace(/\s+/g, '-')}`;
+                }
+                filename += `-${new Date().toISOString().split('T')[0]}.pdf`;
+
+                // Save PDF
+                doc.save(filename);
+
+            } catch (error) {
+                console.error('Error generating PDF:', error);
+                alert('Error al generar el PDF. Por favor intente de nuevo.');
+            }
+
+            exportPdfBtn.disabled = false;
+            exportPdfBtn.innerHTML = '<span>PDF</span>';
+        }
+
+        // Clear all filters
+        function clearFilters() {
+            searchInput.value = '';
+            brandFilter.value = '';
+            categoryFilter.value = '';
+            filterAndRender();
+        }
+
+        // Populate filter dropdowns
+        function populateFilters() {
+            // Brands
+            brands.forEach(brand => {
+                const option = document.createElement('option');
+                option.value = brand;
+                option.textContent = brand;
+                brandFilter.appendChild(option);
+            });
+
+            // Categories
+            categories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categoryFilter.appendChild(option);
+            });
+        }
+
+        // Initialize the app
+        async function init() {
+            try {
+                const response = await fetch('data.json');
+                if (!response.ok) {
+                    throw new Error('Could not load product data');
+                }
+
+                const data = await response.json();
+                allProducts = data.products || [];
+                brands = data.brands || [];
+                categories = data.categories || [];
+
+                // Update total count
+                totalCount.textContent = allProducts.length;
+
+                // Populate filters
+                populateFilters();
+
+                // Initial render
+                filterAndRender();
+
+                // Add event listeners
+                searchInput.addEventListener('input', filterAndRender);
+                brandFilter.addEventListener('change', filterAndRender);
+                categoryFilter.addEventListener('change', filterAndRender);
+                clearFiltersBtn.addEventListener('click', clearFilters);
+                viewCardsBtn.addEventListener('click', () => setView('cards'));
+                viewTableBtn.addEventListener('click', () => setView('table'));
+                exportPdfBtn.addEventListener('click', exportToPdf);
+
+                // Pre-load logo for PDF
+                loadLogo();
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+                productsContainer.innerHTML = `
+                    <div class="empty-state">
+                        <h3>Error al cargar el catálogo</h3>
+                        <p>Por favor ejecuta "python3 build.py" para generar los datos</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Start the app
+        init();
+    </script>
+</body>
+</html>
